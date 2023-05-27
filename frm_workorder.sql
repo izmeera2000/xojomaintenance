@@ -110,7 +110,7 @@ CREATE TABLE IF NOT EXISTS `frm_workorder` (
   `EstLaborHours` float DEFAULT NULL,
   `PMStartDate` datetime DEFAULT NULL,
   PRIMARY KEY (`RecordID`)
-) ENGINE=MyISAM AUTO_INCREMENT=50 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+);
 
 --
 -- Dumping data for table `frm_workorder`
